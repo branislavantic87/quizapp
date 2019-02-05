@@ -3,7 +3,6 @@ import { View, ActivityIndicator, Text, TextInput, ScrollView } from 'react-nati
 import { fetchQuestions } from '../actions';
 import { connect } from 'react-redux';
 import he from 'he';
-import { Input } from './Input';
 import { Section } from './Section';
 import { Button } from './Button';
 import { Actions } from 'react-native-router-flux';
